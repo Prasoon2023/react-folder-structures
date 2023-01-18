@@ -1,0 +1,21 @@
+.btn {
+	display: inline-block;
+	border-radius: $border-radius;
+	font-weight: 400;
+	font-size: 1.6rem;
+	text-align: center;
+	vertical-align: middle;
+	border: 1px solid transparent;
+	cursor: pointer;
+	user-select: none;
+
+	&:disabled,
+	&.disabled,
+	&[aria-disabled='true'] {
+		cursor: default;
+	}
+
+	&-primary {
+		background: $primary-color;
+	}
+}
