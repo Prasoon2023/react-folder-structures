@@ -1,0 +1,29 @@
+{
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "git.ignoreMissingGitWarning": true,
+    "[scss]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll": false
+    },
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "html.format.indentInnerHtml": true,
+    // "editor.wordWrap": "on",
+    "html-css-class-completion.JavaScriptLanguages": [
+        "javascript",
+        "javascriptreact",
+        "typescriptreact"
+    ],
+}
