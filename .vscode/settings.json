@@ -1,29 +1,134 @@
 {
-    "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "git.ignoreMissingGitWarning": true,
-    "[scss]": {
-        "editor.defaultFormatter": "vscode.css-language-features"
-    },
-    "[html]": {
-        "editor.defaultFormatter": "vscode.html-language-features"
-    },
-    "[json]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
-    },
-    "[javascript]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
-    },
-    "editor.codeActionsOnSave": {
-        "source.fixAll": false
-    },
-    "editor.formatOnSave": true,
-    "editor.tabSize": 2,
-    "html.format.indentInnerHtml": true,
-    // "editor.wordWrap": "on",
-    "html-css-class-completion.JavaScriptLanguages": [
-        "javascript",
-        "javascriptreact",
-        "typescriptreact"
-    ],
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "git.ignoreMissingGitWarning": true,
+  "[css]": {
+    "editor.suggest.insertMode": "replace",
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "css.hover.references": false,
+  "[scss]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "compressed",
+      "extensionName": ".min.css",
+      "savePath": "/assets/css"
+    }
+  ],
+  "liveSassCompile.settings.autoprefix": [
+    "defaults",
+    "IE 10"
+  ],
+  "liveSassCompile.settings.excludeList": [
+    "/bootstrap/",
+    "/node_modules/",
+    "/.vscode/"
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll": false
+  },
+  "html.format.indentInnerHtml": true,
+  "editor.wordWrap": "on",
+  "typescript.tsdk": "",
+  "files.autoSave": "off",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "git.enableSmartCommit": true,
+  "editor.fontLigatures": true,
+  "html.format.extraLiners": "head, body, /html",
+  "html.format.contentUnformatted": "pre,code,textarea",
+  "html.format.endWithNewline": true,
+  "html.format.indentHandlebars": true,
+  "editor.formatOnSave": true,
+  "editor.scrollbar.verticalScrollbarSize": 12,
+  // "prettier.jsxSingleQuote": true,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "git.confirmSync": false,
+  "editor.guides.bracketPairs": "active",
+  "gitlens.defaultDateFormat": null,
+  "gitlens.defaultTimeFormat": null,
+  "css.lint.duplicateProperties": "warning",
+  "css.lint.float": "warning",
+  "css.lint.idSelector": "warning",
+  "css.lint.unknownVendorSpecificProperties": "warning",
+  "css.lint.zeroUnits": "warning",
+  "html-to-css-autocompletion.autocompletionFilesScope": "workspace",
+  "html-css-class-completion.enableEmmetSupport": true,
+  "diffEditor.maxComputationTime": 0,
+  "gitlens.hovers.currentLine.over": "line",
+  // "tabnine.experimentalAutoImports": true,
+  // "tabnine.inlineHintColor": "#fff",
+  // "tabnine.disable_file_regex": [],
+  // "tabnine.disable_line_regex": [],
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "gitlens.proxy": {},
+  "liveSassCompile.settings.showOutputWindowOn": "Error",
+  "window.commandCenter": true,
+  "gitlens.views.worktrees.files.layout": "tree",
+  "gitlens.views.remotes.files.layout": "list",
+  // "git-autoconfig.configList": [
+  // 	{
+  // 		"user.email": "anzil@aufaitux.com",
+  // 		"user.name": "Anzil-Aufait"
+  // 	},
+  // 	{
+  // 		"user.email": "iamanzilkhan@gmail.com",
+  // 		"user.name": "AnzilkhaN"
+  // 	},
+  // 	{}
+  // ],
+  "workbench.editorAssociations": {
+    "*.ts": "default"
+  },
+  "editor.accessibilitySupport": "off",
+  "gitlens.rebaseEditor.ordering": "asc",
+  "editor.indentSize": "tabSize",
+  "scss.format.spaceAroundSelectorSeparator": true,
+  "scss.lint.duplicateProperties": "warning",
+  "css.format.spaceAroundSelectorSeparator": true,
+  "javascript.format.insertSpaceAfterConstructor": true,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": true,
+  "javascript.referencesCodeLens.showOnAllFunctions": true,
+  "javascript.referencesCodeLens.enabled": true,
+  "javascript.suggest.completeFunctionCalls": true,
+  "typescript.disableAutomaticTypeAcquisition": true,
+  "html-css-class-completion.JavaScriptLanguages": [
+    "javascript",
+    "javascriptreact",
+    "typescriptreact"
+  ],
+  "workbench.iconTheme": "vscode-icons",
+  "editor.language.brackets": [],
+  "gitlens.views.searchAndCompare.files.layout": "tree",
+  "editor.tabSize": 2,
+  "editor.minimap.showSlider": "always",
+  "css.lint.importStatement": "warning",
+  "css.trace.server": "messages",
+  "html-to-css-autocompletion.triggerCharacters": true,
+  "gitConfigUser.profiles": [
+    {
+      "label": "AnzilkhaN",
+      "email": "iamanzilkhan@gmail.com",
+      "userName": "AnzilkhaN",
+      "selected": true
+    }
+  ],
 }
